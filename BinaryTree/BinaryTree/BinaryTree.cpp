@@ -55,7 +55,7 @@ public:
         return Inner_find(t, m_root);
     }
 
-    void insert(int t) {
+    void Insert(int t) {
         m_root = Inner_insert(t, m_root);
     }
 
